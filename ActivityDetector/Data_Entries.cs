@@ -13,8 +13,15 @@ namespace ActivityDetector
         public class Data_Entries
         {
 
- 
-        [Column (IsPrimaryKey = true)]
+        [Column(IsPrimaryKey = true,IsDbGenerated =true)]
+        public int Data_entriesID
+        {
+            get;
+            set;
+        }
+
+
+         [Column ]
         public DateTime date_Time
             {
                 get;
@@ -26,13 +33,26 @@ namespace ActivityDetector
                 get;
                 set;
             }
-            [Column]
-            public String DataKey
-        {
-                get;
-                set;
-
-            }
-
+        [Column]
+        public String DataKey {
+            get;
+            set;
         }
+        [Column]
+        public double DataValue
+        {
+            get;
+            set;
+        }
+
+       // [Column]
+         //   public String DataId
+       // {
+         //       get;
+           //     set;
+
+            //}
+            
+
+    }
     }

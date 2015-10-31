@@ -15,15 +15,15 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Border BorderBrush="#FFFDFDFD" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="380">
+        <Border BorderBrush="#FFFDFDFD" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="414">
             <Grid>
-                <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="KMeans Editor" Margin="9.167,9.167,9.167,55.167" FontSize="37.333"/>
-                <Button x:Name="button_sensor_logger" Content="Sensor logger" HorizontalAlignment="Left" Margin="9,50,0,-9" VerticalAlignment="Top" Width="181" Click="button_sensor_logger_Click"/>
-                <Button x:Name="button_profile" Content="Profile" HorizontalAlignment="Left" Margin="195,50,0,-9" VerticalAlignment="Top" Width="173"/>
+                <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="KMeans Editor" Margin="12,-4,6,57" FontSize="37.333"/>
+                <Button x:Name="button_sensor_logger" Content="Sensor logger" HorizontalAlignment="Left" Margin="9,34,0,-6" VerticalAlignment="Top" Width="197" Click="button_sensor_logger_Click" Height="70"/>
+                <Button x:Name="button_profile" Content="Profile" HorizontalAlignment="Left" Margin="195,33,-9,-7" VerticalAlignment="Top" Width="192" Height="72"/>
             </Grid>
         </Border>
-        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="515" VerticalAlignment="Top" Width="380" Margin="10,121,0,0">
-            <Grid>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="588" VerticalAlignment="Top" Width="416" Margin="10,121,0,0">
+            <Grid Margin="-1,27,1,-27">
                 <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Select sensors" VerticalAlignment="Top" Margin="9.167,9.167,0,0" FontSize="21.333"/>
                 <CheckBox x:Name="checkBox_accel" Content="Accelerometer" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top"/>
                 <CheckBox x:Name="checkBox_compass" Content="Compass" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>

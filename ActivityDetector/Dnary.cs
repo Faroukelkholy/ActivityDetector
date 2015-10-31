@@ -8,13 +8,16 @@ namespace ActivityDetector
 {
     public class Dnary
     {
+        public  int DnaryID = 1;
         public string DataKey { get; set; }
         public double DataValue { get; set; }
+        public DateTime datetimeDataEntry { get; set; }
+        public string activity { get; set; }
 
-     //   public Dnary(String key,double value)
+        //   public Dnary(String key,double value)
         //{
-            //this.DataKey = key;
-            //this.DataValue = value;
+        //this.DataKey = key;
+        //this.DataValue = value;
         //}
     }
 }

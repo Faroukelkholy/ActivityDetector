@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\ActivityDetector_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/28/2015 10:39:25 PM">
-  <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="10/28/2015 10:38:31 PM" />
-  <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\obj\Debug\ActivityDetector.dll" archivePath="ActivityDetector.dll" lastWriteTime="10/28/2015 10:39:23 PM" />
+﻿<xapCache source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\ActivityDetector_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/31/2015 3:43:27 PM">
+  <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="10/30/2015 11:33:11 AM" />
+  <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\obj\Debug\ActivityDetector.dll" archivePath="ActivityDetector.dll" lastWriteTime="10/31/2015 3:43:26 PM" />
   <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="10/27/2015 4:04:28 PM" />
   <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="10/27/2015 4:04:28 PM" />
   <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="10/27/2015 4:04:28 PM" />
@@ -17,6 +17,6 @@
   <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="10/27/2015 4:04:28 PM" />
   <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="10/27/2015 4:04:28 PM" />
   <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/28/2015 5:40:30 PM" />
-  <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="10/28/2015 10:39:25 PM" />
-  <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="10/28/2015 10:38:31 PM" />
+  <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="10/31/2015 3:43:27 PM" />
+  <file source="C:\Users\farouk khouly\documents\visual studio 2015\Projects\ActivityDetector\ActivityDetector\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="10/30/2015 11:33:12 AM" />
 </xapCache>

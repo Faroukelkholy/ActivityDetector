@@ -11,7 +11,7 @@ namespace ActivityDetector
    
         public class DataBaseContext : DataContext
         {
-            public static string DBConnectionString = @"isostore:/DataEntries9.sdf";
+            public static string DBConnectionString = @"isostore:/DataEntries15.sdf";
             public DataBaseContext(string connectionString)
         : base(connectionString)
             { }

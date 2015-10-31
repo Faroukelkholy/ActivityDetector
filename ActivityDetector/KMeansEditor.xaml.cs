@@ -7,7 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-
+using System.Diagnostics;
 
 namespace ActivityDetector
 {
@@ -52,6 +52,11 @@ namespace ActivityDetector
                 filter.Add("light");
             }
             DataEntry.filterAndPreprossDatas(filter);
+           // foreach (DataEntry de in DataEntry.filtredDatas)
+            //{
+              //  Debug.WriteLine("Data entry filtered in Kmeans editor in list: " + de.dateTime + "," + de.activity );
+
+           // }
 
             // call Kmeans here
             int k = 0;

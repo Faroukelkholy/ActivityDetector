@@ -12,7 +12,13 @@ namespace ActivityDetector
     public class DictionaryTable
     {
 
-        [Column(IsPrimaryKey = true)]
+        [Column(IsPrimaryKey = true,IsDbGenerated = true)]
+        public int dictionaryID
+        {
+            get;
+            set;
+        }
+        [Column]
         public string DataKey
         {
             get;
@@ -25,7 +31,14 @@ namespace ActivityDetector
             set;
         }
         [Column]
-        public DateTime date
+        public DateTime dataEntrydate
+       {
+            get;
+            set;
+
+        }
+        [Column]
+        public string activity
         {
             get;
             set;

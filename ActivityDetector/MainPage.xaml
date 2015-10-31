@@ -15,17 +15,17 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid>
-        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="380" Margin="10,10,0,0">
-            <Grid>
-                <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Activity sensor Logger" FontSize="37.333" Margin="0,0,0,55"/>
-                <Button x:Name="button_scan_activity" Content="Scan activity" HorizontalAlignment="Left" Margin="10,50,0,-9" VerticalAlignment="Top" Width="164"/>
-                <Button x:Name="button_kmeans_editor" Content="KMeans editor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="179,50,0,-9" Width="189" Click="button_kmeans_editor_Click"/>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="105" VerticalAlignment="Top" Width="416" Margin="34,2,0,0">
+            <Grid Margin="39,-4,-44,-44">
+                <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Activity sensor Logger" FontSize="37.333" Margin="-34,3,34,52"/>
+                <Button x:Name="button_scan_activity" Content="Scan activity" HorizontalAlignment="Left" Margin="-44,47,0,0" VerticalAlignment="Top" Width="191"/>
+                <Button x:Name="button_kmeans_editor" Content="KMeans editor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="173,46,0,0" Width="203" Click="button_kmeans_editor_Click"/>
 
             </Grid>
         </Border>
-        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="515" Margin="10,115,0,0" VerticalAlignment="Top" Width="380">
-            <Grid Margin="1.167,1.167,-0.833,-0.833">
-                <TextBlock x:Name="title_accel" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Accelerometer" VerticalAlignment="Top"/>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="590" Margin="30,115,0,0" VerticalAlignment="Top" Width="426">
+            <Grid Margin="-7,9,-27,-57">
+                <TextBlock x:Name="title_accel" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Accelerometer" VerticalAlignment="Top"/>
                 <TextBlock x:Name="label_accel_x" TextWrapping="Wrap" Text="X :" Margin="35,30,321,463"/>
                 <TextBlock x:Name="label_accel_y" TextWrapping="Wrap" Text="Y :" Margin="35,45,321,442"/>
                 <TextBlock x:Name="label_accel_z" TextWrapping="Wrap" Text="Z :" Margin="35,60,321,422"/>
@@ -34,8 +34,8 @@
                 <TextBlock x:Name="value_accel_z" HorizontalAlignment="Left" Margin="70,60,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
 
                 <TextBlock x:Name="title_compass" HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="Compass" VerticalAlignment="Top"/>
-                <TextBlock x:Name="label_compass_deg" HorizontalAlignment="Left" Margin="20,110,0,0" TextWrapping="Wrap" Text="North° : " VerticalAlignment="Top"/>
-                <TextBlock x:Name="value_compass_deg" HorizontalAlignment="Left" Margin="70,110,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
+                <TextBlock x:Name="label_compass_deg" HorizontalAlignment="Left" Margin="10,116,0,0" TextWrapping="Wrap" Text="North° : " VerticalAlignment="Top"/>
+                <TextBlock x:Name="value_compass_deg" HorizontalAlignment="Left" Margin="85,116,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
 
                 <TextBlock x:Name="title_gyro" HorizontalAlignment="Left" Margin="10,140,0,0" TextWrapping="Wrap" Text="Gyroscope" VerticalAlignment="Top"/>
                 <TextBlock x:Name="label_gyro_x" HorizontalAlignment="Left" Margin="35,160,0,0" TextWrapping="Wrap" Text="X: " VerticalAlignment="Top"/>
@@ -46,22 +46,22 @@
                 <TextBlock x:Name="value_gyro_z" HorizontalAlignment="Left" Margin="70,190,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
 
                 <TextBlock x:Name="title_incli" HorizontalAlignment="Left" Margin="10,220,0,0" TextWrapping="Wrap" Text="Inclinometer" VerticalAlignment="Top"/>
-                <TextBlock x:Name="label_incli_yaw" HorizontalAlignment="Left" Margin="35,240,0,0" TextWrapping="Wrap" Text="Yaw: " VerticalAlignment="Top"/>
-                <TextBlock x:Name="value_incli_yaw" HorizontalAlignment="Left" Margin="70,240,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
-                <TextBlock x:Name="label_incli_pitch" HorizontalAlignment="Left" Margin="35,255,0,0" TextWrapping="Wrap" Text="Pitch: " VerticalAlignment="Top"/>
-                <TextBlock x:Name="value_incli_pitch" HorizontalAlignment="Left" Margin="70,255,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
-                <TextBlock x:Name="label_incli_roll" HorizontalAlignment="Left" Margin="35,270,0,0" TextWrapping="Wrap" Text="Roll: " VerticalAlignment="Top"/>
-                <TextBlock x:Name="value_incli_roll" HorizontalAlignment="Left" Margin="70,270,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
+                <TextBlock x:Name="label_incli_yaw" HorizontalAlignment="Left" Margin="21,242,0,0" TextWrapping="Wrap" Text="Yaw: " VerticalAlignment="Top"/>
+                <TextBlock x:Name="value_incli_yaw" HorizontalAlignment="Left" Margin="67,243,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
+                <TextBlock x:Name="label_incli_pitch" HorizontalAlignment="Left" Margin="16,264,0,0" TextWrapping="Wrap" Text="Pitch: " VerticalAlignment="Top"/>
+                <TextBlock x:Name="value_incli_pitch" HorizontalAlignment="Left" Margin="69,266,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
+                <TextBlock x:Name="label_incli_roll" HorizontalAlignment="Left" Margin="22,288,0,0" TextWrapping="Wrap" Text="Roll: " VerticalAlignment="Top"/>
+                <TextBlock x:Name="value_incli_roll" HorizontalAlignment="Left" Margin="69,288,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
 
-                <TextBlock x:Name="title_light" HorizontalAlignment="Left" Margin="10,300,0,0" TextWrapping="Wrap" Text="Light Sensor" VerticalAlignment="Top"/>
-                <TextBlock x:Name="label_light_lux" HorizontalAlignment="Left" Margin="35,320,0,0" TextWrapping="Wrap" Text="Lux : " VerticalAlignment="Top"/>
-                <TextBlock x:Name="value_light_lux" HorizontalAlignment="Left" Margin="70,320,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
+                <TextBlock x:Name="title_light" HorizontalAlignment="Left" Margin="10,320,0,0" TextWrapping="Wrap" Text="Light Sensor" VerticalAlignment="Top"/>
+                <TextBlock x:Name="label_light_lux" HorizontalAlignment="Left" Margin="19,353,0,0" TextWrapping="Wrap" Text="Lux : " VerticalAlignment="Top"/>
+                <TextBlock x:Name="value_light_lux" HorizontalAlignment="Left" Margin="70,356,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top"/>
 
-                <Button x:Name="button_logger" Content="START LOGGING" HorizontalAlignment="Center" Margin="100,425,100,0" VerticalAlignment="Top" Height="80" Click="button_Click" RenderTransformOrigin="0.431,1.255"/>
-                <Button x:Name="button_del" Content="-" HorizontalAlignment="Left" Margin="10,425,10,0" VerticalAlignment="Top" Width="80" Height="80" MinWidth="80" MinHeight="80" Click="button_del_Click"/>
-                <Button x:Name="button_add" Content="+" HorizontalAlignment="Right" Margin="10,425,10,0" VerticalAlignment="Top" Width="80" Height="80" MinWidth="80" MinHeight="80" Click="button_add_Click"/>
+                <Button x:Name="button_logger" Content="START LOGGING" HorizontalAlignment="Center" Margin="97,468,103,0" VerticalAlignment="Top" Height="80" Click="button_Click" RenderTransformOrigin="0.431,1.255"/>
+                <Button x:Name="button_del" Content="-" HorizontalAlignment="Left" Margin="3,469,0,0" VerticalAlignment="Top" Width="80" Height="80" MinWidth="80" MinHeight="80" Click="button_del_Click"/>
+                <Button x:Name="button_add" Content="+" HorizontalAlignment="Right" Margin="0,466,19,0" VerticalAlignment="Top" Width="80" Height="80" MinWidth="80" MinHeight="80" Click="button_add_Click"/>
                 <TextBlock x:Name="label_top_activity" Margin="153,357,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="13.333"/>
-                <TextBox x:Name="textBox_activity" Margin="10,391,10,0" TextWrapping="Wrap" Text="select activity ..." VerticalAlignment="Top" MinWidth="0"/>
+                <TextBox x:Name="textBox_activity" Margin="3,388,17,0" TextWrapping="Wrap" Text="select activity ..." VerticalAlignment="Top" MinWidth="0"/>
                 <TextBlock x:Name="textBlock_logquantity" HorizontalAlignment="Left" Margin="323,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextAlignment="Right"/>
 
             </Grid>
